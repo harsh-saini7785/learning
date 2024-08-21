@@ -1,0 +1,21 @@
+#root {
+  /* max-width: 1280px; */
+  background-color: skyblue;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(96, 195, 235);
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: skyblue;
+  }
+}
