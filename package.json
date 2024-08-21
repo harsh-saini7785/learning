@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "deploy": "npm run build && surge ./build/ your-surge-url.surge.sh",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"

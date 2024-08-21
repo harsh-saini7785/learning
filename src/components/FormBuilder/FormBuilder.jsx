@@ -5,14 +5,6 @@ import { styles } from './FormBuilderStyle';
 import removeButton from '../../assets/remove.png'
 import { validateField, validateInputField } from '../../utils';
 import { useWindowDimension } from '../../CustomHooks/useWindowDimension';
-const options = [
-    { value: 'text', label: 'Text' },
-    { value: 'textarea', label: 'Text Area' },
-    { value: 'dropdown', label: 'Text' },
-    { value: 'checkbox', label: 'Text' },
-    { value: 'radio', label: 'Radio Button' },
-    { value: 'file', label: 'File' },
-]
 
 const FormBuilder = () => {
     const [fields, setFields] = useState([]);
